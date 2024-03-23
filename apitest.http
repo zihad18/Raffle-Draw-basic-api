@@ -1,0 +1,17 @@
+GET http://localhost:4000/health
+
+###
+
+
+GET http://localhost:4000/api/v1/tickets
+
+
+###
+
+POST http://localhost:4000/api/v1/tickets
+Content-Type: application/json
+
+{
+    "username": "adnan",
+    "price": 12
+}
